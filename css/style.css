@@ -1,0 +1,44 @@
+.shadow-bottom {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sleep {
+  display: flex;
+  /* ใช้ Flexbox เพื่อจัดเรียงในแนวนอน */
+  gap: 20px;
+  /* ระยะห่างระหว่างกล่อง */
+  overflow-x: auto;
+  /* ทำให้สามารถเลื่อนกล่องในแนวนอนได้ถ้าข้อความยาว */
+}
+
+.box {
+  background-color: #f9f9f9;
+  /* สีพื้นหลังของกล่อง */
+  padding: 20px;
+  /* ระยะห่างภายในกล่อง */
+  border: 1px solid #ddd;
+  /* ขอบของกล่อง */
+  border-radius: 8px;
+  /* มุมกล่องโค้ง */
+  width: 25vw;
+  /* ความกว้างของกล่องเป็น 25% ของความกว้าง viewport */
+  box-sizing: border-box;
+  /* ทำให้การกำหนดขนาดรวมขอบและ padding */
+  font-family: Arial, sans-serif;
+  /* ฟอนต์ */
+  flex-shrink: 0;
+  /* ป้องกันการยุบตัวของกล่อง */
+}
+
+
+
+.soom {
+  color: #ff7b28;
+}
+
+.text-indent {
+    text-indent: 3em; /* หรือจะใช้ px เช่น 30px */
+}
+
+
+
